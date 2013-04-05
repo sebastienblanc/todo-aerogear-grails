@@ -10,7 +10,7 @@ class UrlMappings {
         "/tags/$id?"(resource: "tag")
         "/tasks/$id?"(resource: "task")
 
-		"/"(view:"/index.html")
+		"/"(uri: "/index.html")
 		"500"(view:'/error')
 	}
 }
