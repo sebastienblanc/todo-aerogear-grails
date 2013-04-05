@@ -7,7 +7,7 @@ The aerogear Todo sample project running with Grails
 
 ### Install Grails
 
-[Here1](http://grails.org/download)
+[Here](http://grails.org/download)
 
 ### Clone this Repo
 

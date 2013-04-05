@@ -32,7 +32,7 @@ class ProjectController {
     }
 
     def show(Long id) {
-        println "in show"
+
         def projectInstance = Project.get(id)
         if (!projectInstance) {
             flash.message = message(code: 'default.not.found.message', args: [message(code: 'project.label', default: 'Project'), id])
